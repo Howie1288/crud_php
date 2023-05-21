@@ -26,7 +26,7 @@ class Alumnos extends Conexion{
     }
 
     public function guardar(){
-        $sql = "INSERT INTO alumnos (alumno_nombre1, alumno_nombre2, alumno_apellido1, alumno_apellido2, alumno_fecnac, alumno_telefono, alumno_correo_elect ) values('$this->alumno_nombre1','$this->alumno_nombre2', '$this->alumno_apellido1', '$this->alumno_apellido2', '$this->alumno_fecnac', '$this->alumno_telefono', '$this->alumno_correo_elect')";
+        $sql = "INSERT INTO Alumnos (alumno_nombre1, alumno_nombre2, alumno_apellido1, alumno_apellido2, alumno_fecnac, alumno_telefono, alumno_correo_elect ) values('$this->alumno_nombre1','$this->alumno_nombre2', '$this->alumno_apellido1', '$this->alumno_apellido2', '$this->alumno_fecnac', '$this->alumno_telefono', '$this->alumno_correo_elect')";
         $resultado = self::ejecutar($sql);
         return $resultado;
     }

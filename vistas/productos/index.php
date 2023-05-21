@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -56,52 +55,52 @@
     <div class="container">
         <h1 class="text-center">Formulario Registro de Estudiantes de Informatica</h1>
         <div class="row justify-content-center">
-            <form action="/crud_php/controladores/productos/guardar.php" method="POST" class="col-lg-8 border p-3">
+          <form action="/crud_php/controladores/productos/guardar.php" method="POST" class="col-lg-8 border p-3">
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="primer_nombre">Primer Nombre:</label>
-                        <input type="text" name="primer_nombre" id="primer_nombre">
+                        <label for="alumno_nombre1">Primer Nombre:</label>
+                        <input type="text" name="alumno_nombre1" id="alumno_nombre1">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="segundo_nombre">Segundo Nombre:</label>
-                        <input type="text" name="segundo_nombre" id="segundo_nombre">
-                    </div>
-                </div>
-
-                <div class="row mb-3">
-                    <div class="col">
-                        <label for="primer_apellido">Primer Apellido:</label>
-                        <input type="text" name="primer_apellido" id="primer_apellido">
+                        <label for="alumno_nombre2">Segundo Nombre:</label>
+                        <input type="text" name="alumno_nombre2" id="alumno_nombre2">
                     </div>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="segundo_apellido">Segundo Apellido:</label>
-                        <input type="text" name="segundo_apellido" id="segundo_apellido">
+                        <label for="alumno_apellido1">Primer Apellido:</label>
+                        <input type="text" name="alumno_apellido1" id="alumno_apellido1">
                     </div>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="fecha_nacimiento">Fecha de Nacimiento:</label>
-                        <input type="date" name="fecha_nacimiento" id="fecha_nacimiento">
+                        <label for="alumno_apellido2">Segundo Apellido:</label>
+                        <input type="text" name="alumno_apellido2" id="alumno_apellido2">
                     </div>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="telefono">Número de Teléfono:</label>
-                        <input type="number" name="telefono" id="telefono">
+                        <label for="alumno_fecnac">Fecha de Nacimiento:</label>
+                        <input type="date" name="alumno_fecnac" id="alumno_fecnac">
                     </div>
                 </div>
 
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="correo" style="min-width: 150px;">Correo Electrónico:</label>
-                        <input type="email" name="correo" id="correo">
+                        <label for="alumno_telefono">Número de Teléfono:</label>
+                        <input type="number" name="alumno_telefono" id="alumno_telefono">
+                    </div>
+                </div>
+
+                <div class="row mb-3">
+                    <div class="col">
+                        <label for="alumno_correo_elect" style="min-width: 150px;">Correo Electrónico:</label>
+                        <input type="email" name="alumno_correo_elect" id="alumno_correo_elect">
                     </div>
                 </div>
 
