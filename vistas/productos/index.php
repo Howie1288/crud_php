@@ -10,6 +10,7 @@
         /* Estilos personalizados para el formulario */
         body{
             background-color: #F4F6F7;
+            
         }
         label {
             font-weight: bold;
@@ -41,7 +42,7 @@
 
         .container {
             
-            margin-top: 50px;
+            margin-top: 30px;
             background-color: #D6DBDF;
         }
 
@@ -52,7 +53,10 @@
 </head>
 
 <body>
-    <div class="container">
+<img class="mujer" src="mujer1.png" alt="" style="width: 400px; height: auto; position: absolute; top: 50px; left: 100px;">
+
+
+    <div class="container" style="position: absolute; right: 0; margin: 20px;">
         <h1 class="text-center">Formulario Registro de Estudiantes de Informatica</h1>
         <div class="row justify-content-center">
           <form action="/crud_php/controladores/productos/guardar.php" method="POST" class="col-lg-8 border p-3">

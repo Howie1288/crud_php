@@ -17,3 +17,15 @@ create table alumnos(
     alumno_correo_elect varchar(50) not null,
     primary key (alumno_id)
 )
+
+/*ESTOS COMANDO SON PARA CORREGIR ERRORES DE MI BASE DE DATOS*/
+/*para ver una tabla*/
+select * from alumnos
+/*modificar los valores de frecha de una tabla en informix*/
+ALTER TABLE alumnos modify (alumno_fecnac datetime year to day not null)
+
+alter table alumnos modify (alumno_nombre2 varchar(50) )
+/*Eliminar Comunas de una tabla*/
+ALTER TABLE alumnos DROP COLUMN nombre_del_campo;
+/*Eliminar valores de una tabla */
+DELETE FROM alumnos WHERE columnas = 2,3;
